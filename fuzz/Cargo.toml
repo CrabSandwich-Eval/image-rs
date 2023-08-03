@@ -10,8 +10,10 @@ cargo-fuzz = true
 
 [dependencies.image]
 path = ".."
-[dependencies.libfuzzer-sys]
-version = "0.3"
+
+[dependencies]
+libfuzzer-sys = { git = "https://github.com/AFLplusplus/LibAFL", branch = "libfuzzer", features = ["arbitrary-derive"], package = "libafl_libfuzzer" }
+
 
 # Prevent this from interfering with workspaces
 [workspace]
