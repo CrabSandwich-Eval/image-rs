@@ -1,0 +1,9 @@
+[submodule "libfuzzer"]
+	path = libfuzzer
+	url = git@github.com:CrabSandwich-Eval/image-rs.git
+[submodule "cargo_libafl"]
+	path = cargo_libafl
+	url = git@github.com:CrabSandwich-Eval/image-rs.git
+[submodule "libfuzzer_libafl"]
+	path = libafl_libfuzzer
+	url = git@github.com:CrabSandwich-Eval/image-rs.git
